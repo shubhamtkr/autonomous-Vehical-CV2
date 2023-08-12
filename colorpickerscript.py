@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-frameWidth = 640
-frameHeight = 480
+frameWidth = 480
+frameHeight = 120
 cap = cv2.VideoCapture(1)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
